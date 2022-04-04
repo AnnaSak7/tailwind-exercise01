@@ -6,19 +6,20 @@
 - npm init 
 - npm install tailwindcss 
 
-- mkdir src / touch src
-- mkdir public
+- mkdir src 
 
 - in src/css file add
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
 
-<!-- - add in package.json 
+<!-- - mkdir public
+
+- add in package.json 
       "scripts": {
     "build-css": "tailwindcss build src/styles.css -o public/style.css"
-  }, -->
-- npm run build-css
+  },
+- npm run build-css -->
 
 - npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch
 
